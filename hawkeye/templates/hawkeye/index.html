@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% load staticfiles %}
+
+	<!-- add styles -->
+<link href="static/hawkeye/css/main.css" rel="stylesheet" type="text/css" />
+
+<script src="static/hawkeye/js/script.js"></script>
+</head>
+<body>
+<div class="bbody">
+    <!-- upload form -->
+   <h1>Hawkeye Image Detector</h1>
+<h2>Get Image Data</h2>
+
+<form action="" method="POST" enctype="multipart/form-data">
+{% csrf_token %}	
+  <p class="file">
+    <input type="file" name="image" id="file" />
+    <label for="file">Upload your image</label>
+    <br/><br/>
+    <button type="submit">Submit</button>
+  </p>
+</form>
+<div class="result">
+	
+
+</div>
+
+</div></body>
+</html>

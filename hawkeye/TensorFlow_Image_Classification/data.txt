@@ -1,0 +1,1 @@
+{"sports_car_sport_car": 0.78597491979599, "car_wheel": 0.10414814949035645, "grille_radiator_grille": 0.03720936179161072, "convertible": 0.006509948056191206, "racer_race_car_racing_car": 0.005591657478362322}

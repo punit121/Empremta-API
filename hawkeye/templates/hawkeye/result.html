@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>Result Data</h1>
+<h4>Image Classification</h4>
+{% for x,y in value.items %}
+	{{ x }} : {{y}}
+{% endfor  %}	
+<h4>Nude Result</h4>
+{% for x,y in nude_value.items %}
+	{{ x }} : {{y }} 
+{% endfor  %}	
+<h4>Text Result</h4>
+{% for x,y in text_value.items %}
+	{{ x }} : {{y }} 
+{% endfor  %}	
+<h4>Watermark Result</h4>
+{% for x,y in watermark_value.items %}
+	{{ x }} : {{y }} 
+{% endfor  %}	
+</body>
+</html>

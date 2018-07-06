@@ -1,2 +1,1 @@
-# Empremta-API
-API for Image Classification 
+#API For Image Classification
